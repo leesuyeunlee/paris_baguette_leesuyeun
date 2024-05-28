@@ -1,0 +1,34 @@
+.app {    
+    font-family: "Noto Sans KR", "맑은 고딕";}
+.app main {
+    background-color: #E6D9B7;
+}
+.app main .top {
+    text-align:center;
+    letter-spacing: -0.2px; line-height:1.2;
+}
+.app main .top h1 {
+    font-size:1.25rem; color:#023586;
+    margin:10px 178.5px;
+    font-weight: 700;
+}
+.app main .top p {
+    font-size: 0.625rem;
+    margin : 10px 96px;
+}
+.app main .bottom {}
+.app main .bottom form {
+    width: 463px;
+    margin: 0 auto;
+    letter-spacing: -0.2px; font-size: 0.625rem;
+}
+.app main .bottom #davice_frm fieldset {}
+.app main .bottom #davice_frm fieldset legend {}
+.app main .bottom #davice_frm fieldset dl {}
+.app main .bottom #davice_frm fieldset dl dt {
+    display: flex;
+}
+.app main .bottom #davice_frm fieldset dl dt dd {
+}
+.app main .bottom #davice_frm fieldset .result {}
+.app main .bottom #davice_frm fieldset .result #subs_bnt {}

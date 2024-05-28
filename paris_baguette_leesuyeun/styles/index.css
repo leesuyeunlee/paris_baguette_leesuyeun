@@ -1,0 +1,44 @@
+.app {
+    font-family: "Noto Sans KR", "맑은 고딕";
+    text-align: center;
+}
+.app header {
+    background-color: #E6D9B7;
+}
+.app header h1 {}
+.app header h1 a {}
+.app header h1 a img {}
+.app header nav {
+background-color: #E6D9B7;
+}
+.app header nav a {
+    background-color: rgb(2, 53, 134);
+    color: #fff;
+    font-size:0.938rem;/* 글자사이즈 글자 근접태그 */
+    margin-right: 24px;
+    border: solid #023586;
+    border-radius: 5px;
+}
+.app main {}
+.app main .bg1 {
+    background-color: #E6D9B7;
+}
+.app main .bg1 h1 {}
+.app main .bg1 h1 img {}
+.app main .bg1 p {}
+.app main .bg1 p img {}
+.app main .bg2 {}
+.app main .bg2 a {}
+.app main .bg3 {
+    background-image: url(../images/bg2.jpg);
+}
+.app main .bg3 .top {}
+.app main .bg3 .top h2 {}
+.app main .bg3 .top p {}
+.app main .bg3 .bottom h2 {}
+.app main .bg3 .bottom p {}
+.app main .bg4 {}
+.app main .bg4 ul {}
+.app main .bg4 ul li{}
+.app main .bg4 ul li p{}
+.app main .bg4 ul li h3{}

@@ -1,0 +1,77 @@
+<!-- 상담신청 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARIS BAGUETTE | 상담신청</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/request.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app"> 
+        <main>
+            <div class="top">
+                <h1>가맹점<br>상담신청</h1>
+                <p>가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</p>
+                <p>* 항목은필수입력사항입니다</p>
+            </div>
+            <div class="bottom">
+                <form action="#" method="post" id="advice_frm">
+                    <fieldset>
+                        <legend class="skip">상담 신청 양식</legend>
+                        <dl>
+                            <dt>*이름</dt>
+                            <dd><input type="text" name="user_id"></dd>
+                            <dt>휴대폰번호</dt>
+                            <dd><input type="number" name="user_ph"></dd>
+                            <dt>이메일</dt>
+                            <dd>
+                                <input type="email" name="user_ph">
+                                <p><img src="./images/email.svg" alt=""></p>
+                            </dd>
+                            <dd>
+                                <select>
+                                    <option>google.com</option>
+                                    <option>naver.com</option>
+                                    <option>kakao.com</option>
+                                    <option>hanmail.net</option>
+                                    <option>직접입력</option>
+                                </select>
+                            <dt>창업희망지역</dt>
+                            <dd><input type="text" name="user_ph"></dd>
+                            <dt>신청계기</dt>
+                            <dd>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="search" value="i_apPly" id="i_apPly">
+                                        <label for="i_apPly">인터넷검색</label>
+                                        <input type="radio" name="search" value="s_apPly" id="s_apPly">
+                                        <label for="s_apPly">매장방문</label>
+                                        <input type="radio" name="search" value="f_apPly" id="f_apPly">
+                                        <label for="f_apPly">지인소개</label>
+                                        <input type="radio" name="search" value="c_apPly" id="c_apPly">
+                                        <label for="c_apPly">컨설팅/부동산</label>
+                                        <input type="radio" name="search" value="o_apPly" id="o_apPly">
+                                        <label for="o_apPly">기타</label>
+                                    </li>
+                                </ul>
+                            </dd>
+                            <dt>제목</dt>
+                            <dd><input type="text" name="user_ph"></dd>
+                            <dt>내용</dt>
+                            <dd><input type="text" name="user_ph"></dd>
+                        </dl>
+                        <div class="result">
+                            <button type="submit" id="subs_bnt">신청하기</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
