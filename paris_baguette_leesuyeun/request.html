@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/request.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -25,23 +27,23 @@
                         <legend class="skip">상담 신청 양식</legend>
                         <dl>
                             <dt>*이름</dt>
-                            <dd><input type="text" name="user_id"></dd>
-                            <dt>휴대폰번호</dt>
-                            <dd><input type="number" name="user_ph"></dd>
-                            <dt>이메일</dt>
+                            <dd><input type="text" name="user_id" maxlength="4" required></dd>
+                            <dt>*휴대폰번호</dt>
+                            <dd><input type="number" name="user_ph" maxlength="11" required></dd>
+                            <dt>*이메일</dt>
                             <dd>
-                                <input type="email" name="user_ph">
+                                <input type="email" name="user_ph" required>
                                 <p><img src="./images/email.svg" alt=""></p>
                             </dd>
                             <dd>
                                 <select>
-                                    <option>google.com</option>
-                                    <option>naver.com</option>
-                                    <option>kakao.com</option>
-                                    <option>hanmail.net</option>
-                                    <option>직접입력</option>
+                                    <option value="google">google.com</option>
+                                    <option value="naver">naver.com</option>
+                                    <option value="kakao">kakao.com</option>
+                                    <option value="hanmail">hanmail.net</option>
+                                    <option >직접입력</option>
                                 </select>
-                            <dt>창업희망지역</dt>
+                            <dt>*창업희망지역</dt>
                             <dd><input type="text" name="user_ph"></dd>
                             <dt>신청계기</dt>
                             <dd>
@@ -60,9 +62,9 @@
                                     </li>
                                 </ul>
                             </dd>
-                            <dt>제목</dt>
-                            <dd><input type="text" name="user_ph"></dd>
-                            <dt>내용</dt>
+                            <dt>*제목</dt>
+                            <dd><input type="text" name="user_ph" placeholder="궁금하신 사항을 입력하세요"></dd>
+                            <dt>*내용</dt>
                             <dd><input type="text" name="user_ph"></dd>
                         </dl>
                         <div class="result">
